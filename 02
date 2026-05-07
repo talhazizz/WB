@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image and Table</title>
+</head>
+<body>
+
+    <h2>Web Page Example</h2>
+
+    <img src="image.jpg" alt="Sample Image" width="200">
+
+    <br><br>
+
+    <a href="https://www.google.com">Visit Google</a>
+
+    <br><br>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Details</th>
+        </tr>
+
+        <tr>
+            <td>Student</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <th>Course</th>
+                        <th>Year</th>
+                    </tr>
+
+                    <tr>
+                        <td>Computer</td>
+                        <td>3rd Year</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
