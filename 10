@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>POST Method</title>
+</head>
+
+<body>
+
+<form method="POST" action="display.php">
+
+    Name:
+    <input type="text" name="name"><br><br>
+
+    Email:
+    <input type="text" name="email"><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
+
+display.php
+<?php
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+
+echo "Name: " . $name;
+
+echo "<br>";
+
+echo "Email: " . $email;
+
+?>
