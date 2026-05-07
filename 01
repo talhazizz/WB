@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+</head>
+<body>
+
+    <h1><u>Personal Information</u></h1>
+
+    <p><b>Name:</b> Talha Khan</p>
+    <p><i>Course:</i> Computer Engineering</p>
+    <p><strong>College:</strong> ABC Polytechnic</p>
+    <p><mark>Hobby:</mark> Web Development</p>
+    <p><small>Email:</small> talha@gmail.com</p>
+
+</body>
+</html>
