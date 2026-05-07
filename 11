@@ -1,0 +1,19 @@
+<?php
+
+$str = "Web Development";
+
+echo "Original String: " . $str;
+
+echo "<br>";
+
+echo "Length: " . strlen($str);
+
+echo "<br>";
+
+echo "Reverse String: " . strrev($str);
+
+echo "<br>";
+
+echo "Substring: " . substr($str, 0, 3);
+
+?>
