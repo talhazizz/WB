@@ -1,0 +1,11 @@
+<?php
+
+echo "<h1>Welcome to PHP</h1>";
+
+echo "Current Date: " . date("d-m-Y");
+
+echo "<br>";
+
+echo "Current Time: " . date("h:i:s A");
+
+?>
