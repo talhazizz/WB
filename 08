@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+
+<body>
+
+<script>
+
+    function calculator(a, b, choice){
+
+        switch(choice){
+
+            case '+':
+                return a + b;
+
+            case '-':
+                return a - b;
+
+            case '*':
+                return a * b;
+
+            case '/':
+                return a / b;
+
+            default:
+                return "Invalid Choice";
+        }
+    }
+
+    let result = calculator(10, 5, '+');
+
+    document.write("Result = " + result);
+
+</script>
+
+</body>
+</html>
