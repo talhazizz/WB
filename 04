@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Example</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h2{
+            color: blue;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color:red;">Welcome to Web Development</h1>
+
+    <h2>Student Table</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+
+        <tr>
+            <td>Talha</td>
+            <td>Computer</td>
+        </tr>
+    </table>
+
+</body>
+</html>
