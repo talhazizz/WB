@@ -45,3 +45,9 @@
 
 </body>
 </html>
+External CSS File (style.css)
+
+body{
+    background-color: lightgray;
+    font-family: Arial;
+}
